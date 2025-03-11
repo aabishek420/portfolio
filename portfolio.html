@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abishek-Portfolio</title>
+    <meta name="description" content="Abishek A - Fullstack Developer Portfolio">
+    <meta name="keywords" content="Fullstack Developer, Java, Python, JavaScript, React, Portfolio">
+    <meta name="author" content="Abishek A">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Abishek A <i class="fa-solid fa-face-saluting"></i></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#certificates">Certificates</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <h1>Hello, I'm Abishek A</h1>
+        <h2 class="highlight">Fullstack Developer</h2>
+        <div class="mt-4">
+            <button class="btn" onclick="window.location.href='mailto:aabishek636@gmail.com';">Hire Me</button>
+            <a href="resume.pdf" class="btn" download>
+                <i class="fas fa-download"></i> Resume
+            </a>
+        </div>
+        <div class="social-icons mt-4">
+            <a href="https://github.com/aabishek420" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/abishek-a-472307248/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://wa.me/+918940068766" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        </div>
+    </section>
+    <hr>
+
+    <!-- Portfolio Section -->
+    <section id="projects" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">My Work</h2>
+            <hr>
+            <div class="row">
+                <div class="col-md-4 project-item" data-category="web">
+                    <img src="https://www.ntaskmanager.com/wp-content/uploads/2020/02/What-is-a-Project-1-scaled.jpg" alt="Project 1 - Web Application">
+                    <h5 class="mt-2">Project 1</h5>
+                    <p>A brief description of Project 1.</p>
+                </div>
+                <div class="col-md-4 project-item" data-category="design">
+                    <img src="https://www.flickerbuzz.com/wp-content/uploads/2023/06/New-Naruto-Anime-Project-1536x864.png" alt="Project 2 - Design Project">
+                    <h5 class="mt-2">Project 2</h5>
+                    <p>A brief description of Project 2.</p>
+                </div>
+                <div class="col-md-4 project-item" data-category="mobile">
+                    <img src="https://th.bing.com/th/id/OIP.d2JzuKaLFdm2PQeJ2C4ULAAAAA?rs=1&pid=ImgDetMain" alt="Project 3 - Mobile Application">
+                    <h5 class="mt-2">Project 3</h5>
+                    <p>A brief description of Project 3.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">My Skills</h2>
+            <hr>
+            <div class="row">
+                <div class="skills-list">
+                    <div class="skill-item">JAVA</div>
+                    <div class="skill-item">PYTHON</div>
+                    <div class="skill-item">JAVASCRIPT</div>
+                    <div class="skill-item">PHP</div>
+                    <div class="skill-item">MYSQL</div>
+                    <div class="skill-item">React JS</div>
+                    <div class="skill-item">Spring Boot</div>
+                    <div class="skill-item">GitHub</div>
+                    <div class="skill-item">Linux</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Certificates</h2>
+            <hr>
+            <div class="row g-2">
+                <div class="col-md-4 certificate">
+                    <img src="https://i2.wp.com/creativecertificates.com/wp-content/uploads/2015/06/12.jpg" alt="Certificate 1 - Azure Administrator Associate" class="img-fluid">
+                    <p class="mt-2">Microsoft Certified: Azure Administrator Associate</p>
+                </div>
+                <div class="col-md-4 certificate">
+                    <img src="https://cdn.dribbble.com/users/2160942/screenshots/20463095/google-ux-design-professional-certificate_4x.jpg" alt="Certificate 2 - Fullstack Development Certification" class="img-fluid">
+                    <p class="mt-2">Fullstack Development Certification</p>
+                </div>
+                <div class="col-md-4 certificate">
+                    <img src="https://th.bing.com/th/id/OIP.Aa5UrVr7ZGIjxAogF-VyBgAAAA?rs=1&pid=ImgDetMain" alt="Certificate 3 - Java Programming Certification" class="img-fluid">
+                    <p class="mt-2">Java Programming Certification</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">About Me</h2>
+            <hr>
+            <div class="row">
+                <div class="me">
+                    As a recent engineering graduate, I'm looking for an opportunity from where I can identify problems
+                    and offer suggestions. I'm dedicated to continue strengthening my MySQL and Java skills, and I'm
+                    fascinated to find out about the latest developments in the technology field.
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h2>B.E, Computer Science & Engineering</h2>
+                        <p><strong>ABC Engineering College</strong></p>
+                        <p class="date">Year 2020 - Year 2024</p>
+                        <p>Relevant Coursework:</p>
+                        <ul>
+                            <li>Data Structures and Algorithms</li>
+                            <li>Database Systems</li>
+                            <li>Operating Systems</li>
+                            <li>Computer Networks</li>
+                        </ul>
+                        <p>Technical Skills:</p>
+                        <ul>
+                            <li>Python, Java, HTML/CSS, JavaScript</li>
+                            <li>React.js, SQL and NoSQL databases</li>
+                            <li>Docker, Git, GitHub</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Me</h2>
+            <hr>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="4" required></textarea>
+                </div>
+                <button type="button" class="btn btn-primary"
+                    onclick="window.location.href='mailto:aabishek636@gmail.com';">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <hr>
+
+    <!-- Footer -->
+    <footer class="text-center py-4">
+        <div class="container">
+            <p> | Copyright &copy; 2025 Abishek All rights reserved | </p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
